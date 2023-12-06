@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>我的大学生活</title>
+  <link rel="stylesheet" href="web/res/layui/css/layui.css">
+  <link rel="stylesheet" href="web/res/static/css/index.css">
+</head>
+<body>
+  <div class="nav index">
+    <div class="layui-container">
+    
+      <div class="nav-logo">
+        <a href="index.html">
+        </a>
+      </div>
+      <div class="nav-list">
+        <button>
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="layui-nav" lay-filter="">
+          <li class="layui-nav-item layui-this"><a href="index.html">首页</a></li>
+          <li class="layui-nav-item"><a href="web/grjs.html">个人介绍</a></li>
+          <li class="layui-nav-item "><a href="web/album.html">唱片小馆</a></li>
+          <li class="layui-nav-item"><a href="web/mlmdxqe.html">马拉美沙龙</a></li>
+          <li class="layui-nav-item"><a href="web/message.html">信箱</a></li>
+          <li class="layui-nav-item"><a href="https://zhangshengxiang682.github.io/qinshi/">寝室主页</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="layui-carousel" id="banner">
+      <div carousel-item>
+        <div>
+          <img src="images/open.jpg">
+          <div class="panel">
+            <p class="title">Welcome</p>
+            <p>我的大学生活</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/open2.jpg">
+        </div>
+        <div>
+          <img src="images/open3.jpg">
+        </div>
+        <div>
+          <img src="images/open4.jpg">
+        </div>
+        <div>
+          <img src="images/open5.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+  </div>
+<script src="web/res/layui/layui.js"></script>
+
+<script>
+  layui.config({
+    base: 'web/res/static/js/' 
+  }).use('firm'); 
+</script>
+</body>
+</html>
